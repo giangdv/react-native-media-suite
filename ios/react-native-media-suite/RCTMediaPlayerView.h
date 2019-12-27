@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
-#import "React/RCTComponent.h"
+#import <React/RCTComponent.h>
 
 
 @interface RCTMediaPlayerView : UIView

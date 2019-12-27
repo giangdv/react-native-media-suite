@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = package['license']
   s.platform     = :ios, '7.0'
   s.source       = { git: 'https://github.com/giangdv/react-native-media-suite.git', tag: 'master' }
-  s.source_files = 'ios/**/*.{h,m}'
+  s.source_files = 'ios/**/*.{h,m,swift}'
   s.requires_arc = true
 
   s.dependency 'React'

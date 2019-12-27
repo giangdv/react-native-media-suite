@@ -1,6 +1,7 @@
 import Foundation
 import AVFoundation
 
+@available(iOS 9.0, *)
 @objc(MediaDownloader)
 class MediaDownloader: RCTEventEmitter {
     
@@ -229,8 +230,8 @@ class MediaDownloader: RCTEventEmitter {
     
 }
 
+@available(iOS 9.0, *)
 extension MediaDownloader: AVAssetDownloadDelegate {
-    
     func urlSession(_ session: URLSession,
                     task: URLSessionTask,
                     didCompleteWithError error: Error?) {
